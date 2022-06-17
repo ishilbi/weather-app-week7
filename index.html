@@ -15,62 +15,67 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <form>
-          <div class="row">
-            <div class="col-9">
-              <input
-                type="search"
-                placeholder="Enter a city..."
-                class="form-control search-input"
-              />
-            </div>
-            <div class="col-3 p-0">
-              <input
-                type="submit"
-                class="btn btn-primary w-100"
-                value="Search"
-              />
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+          <form>
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter a city..."
+                  class="form-control search-input"
+                />
+              </div>
+              <div class="col-3 p-0">
+                <input
+                  type="submit"
+                  class="btn btn-primary w-100"
+                  value="Search"
+                />
+              </div>
             </div>
           </div>
-        </form>
-        <div class="weather-info">
-          <div class="row">
-            <div class="col-6">
-              <h1>New York</h1>
-              <h2 id="date-time">Thursday, 12:00</h2>
-              <ul>
-                
-                <li>
-                  <span id="weather-description"> cloudy </span>
-                </li>
-                <li>
-                  Humidity:
-                  <span id="humidity-index"> <strong>1</span> %</strong>
-                </li>
-                <li>
-                  Wind Speed:
-                  <span id="wind-speed"> <strong>2</span> km/hr</strong>
-                </li>
-              </ul>
-            </div>
-            <div class="col-6">
-              <div class="temperature-container d-flex justify-content-end">
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                  alt="clear"
-                />
-                <div>
+          </form>
+          <div class="weather-info">
+            <div class="row">
+              <div class="col-6">
+                <h1>New York</h1>
+                <h2 id="date-time">Thursday, 12:00</h2>
+                <ul>
+                  <li>
+                    <span id="weather-description"> Cloudy </span>
+                  </li>
+                  <li>
+                    Humidity:
+                    <strong><span id="humidity-level"> </span>%</strong>
+                  </li>
+                  <li>
+                    Wind Speed:
+                    <strong><span id="wind-speed"></span> km/hr</strong>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <div class="clearfix weather-temperature">
+                  <div class="float-right">
                     <span class="temperature" id="temperature">32</span>
-          <span class="units">
-            <a id="celsius-link">°C</a> |
-            <a id="fahrenheit-link">°F</a>
-          </span>
+                    <span class="units">
+                      <a id="celsius-link">°C</a> |
+                      <a id="fahrenheit-link">°F</a>
+                    </span>
+                  </div>
+                  <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                    alt="clear"
+                    class="float-right"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <small>
           This project was coded by
           <a href="mailto:silvialeelee7@gmail.com">Silvia Lee</a>
