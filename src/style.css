@@ -64,15 +64,17 @@ li strong {
   margin: 10px 0;
 }
 .temperature {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 36px;
   font-weight: 700;
   position: relative;
   line-height: 1;
-  bottom: -20px;
+  bottom: -35px;
   margin-left: 20px;
   margin-right: -5px;
 }
 .units {
   letter-spacing: -2px;
+  position: relative;
+  bottom: -10px;
 }
