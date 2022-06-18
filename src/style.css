@@ -78,3 +78,10 @@ li strong {
   position: relative;
   bottom: -10px;
 }
+.weather-temperature .active {
+  color: #272142;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
