@@ -29,6 +29,7 @@ li {
   font-size: 16px;
   line-height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 
 li strong {
@@ -68,4 +69,8 @@ li strong {
   line-height: 1;
   bottom: -20px;
   margin-left: 20px;
+  margin-right: -5px;
+}
+.units {
+  letter-spacing: -2px;
 }
