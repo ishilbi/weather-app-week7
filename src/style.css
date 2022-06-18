@@ -54,13 +54,16 @@ li strong {
 .overview {
   margin-bottom: 30px;
 }
+.weather-temperature {
+  margin-top: 30px;
+}
 .weather-temperature img {
   margin: 10px 0;
 }
 .temperature {
   font-size: 50px;
   line-height: 36px;
-  font-weight: 700px;
+  font-weight: 700;
   position: relative;
   line-height: 1;
   bottom: -20px;
