@@ -1,5 +1,4 @@
 function formatDate(timestamp) {
-  //calculate the date
   let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
@@ -43,6 +42,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "f3a66372ec0940e078d8212f937f2ff1";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
+let city = "Seoul";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 console.log(apiUrl);
 axios.get(apiUrl).then(displayTemperature);
