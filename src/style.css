@@ -85,3 +85,28 @@ li strong {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+.weather-forecast {
+  text-align: center;
+  margin: 40px 0;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 50px;
+}
+.weather-forecast .forecast-time {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #272142;
+}
+
+.weather-forecast .forecast-temperature {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3d2378;
+  font-weight: 600;
+}
+.weather-forecast .forecast-temperature-min {
+  margin-left: 10px;
+  opacity: 0.6;
+}
