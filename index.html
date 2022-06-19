@@ -12,13 +12,16 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <title>Weather App Week 7</title>
+    <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
+            <div class="weather-title">
+              Weather <img src="image/weather.svg" alt="" width="90px" />
+            </div>
             <form id="search-form">
               <div class="row">
                 <div class="col-9">
@@ -45,10 +48,10 @@
             <div class="row">
               <div class="col-6">
                 <h1 id="city">s</h1>
-                <h2 id="date-time">Thursday, 12:00</h2>
+                <h2 id="date-time"></h2>
                 <ul>
                   <li>
-                    <span id="weather-description"> Cloudy </span>
+                    <span id="weather-description"> </span>
                   </li>
                   <li>
                     Humidity:
